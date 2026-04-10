@@ -1,0 +1,19 @@
+.registr_background{
+    background-color: #edededa1;
+    .container{
+        background-color: #ffffff;
+        width: 414px;
+        height: 328px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-rows: 1fr;
+        .span{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+
+        }
+    }
+}
