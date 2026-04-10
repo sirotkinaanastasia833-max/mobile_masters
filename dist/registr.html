@@ -16,7 +16,35 @@
                 <span class="span_left">Login</span>
                 <span>Sign-up</span>
             </div>
+            <div class="line"></div>
+        </div>
+        <div class="email_wrapper">
+            <p>Email address</p>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="example@mail.com">
+            <hr size="1" width="95%" align="left" color="black">
+        </div>
+        <div class="password_wrapper">
+            <p>Password</p>
+            <label for="password"></label>
+            <div style="display: flex; align-items: center; gap: 5px;">
+                <input type="password" id="password" name="password" placeholder="********" style="flex:1">
+                <button type="button" onclick="togglePassword()" style="cursor:pointer;">Показать пароль</button>
+            </div>
+            <hr size="1" width="95%" align="left" color="black">
+        </div>
 
+        <script>
+            function togglePassword() {
+                const input = document.getElementById('password');
+                input.type = input.type === 'password' ? 'text' : 'password';
+            }
+        </script>
+        <a href="#">Forgot passcode?</a>
+        <div class="button">
+            <section class="section_button">
+        <button>Login</button>
+</section>
         </div>
     </section>
 </body>
