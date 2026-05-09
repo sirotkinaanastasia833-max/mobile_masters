@@ -1,0 +1,71 @@
+header{
+    padding: 50px 30px;
+    .corzina{
+        padding-left: 290px;
+    }
+}
+main{
+    padding: 0px 50px 0px 30px;
+    font-size: 17px;
+    .search_wrapper{
+        padding: 2px;
+        border-radius: 8px;
+        background-color: var(--light-grey);
+        img{margin-right: 10px;}
+        span{
+            font-size: 15px;
+        }
+    }
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+        a{
+            font-size: 17px;
+            text-decoration: none;
+            margin: 20px;
+            color: var(--secondary);
+        }
+        a:focus{
+            color: var(--orange);
+        }
+    }
+    button{
+        all: unset;
+        color: var(--orange);
+        margin-left: 260px;
+    }
+    .Foods{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        margin-top: 10px;
+        .food_wrapper{
+            padding: 50px 30px 30px 30px;
+            background-color: #fff;
+            border-radius: 30px;
+            .title_price{
+                img{
+                }
+                .title_food{
+                    text-align: center;
+                    font-size: 17px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                .price{
+                    display: flex;
+                    justify-content: center;
+                    color: var(--orange);
+                    font-size: 17px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+            }
+            
+        }
+    }
+    footer{
+        padding: 100px 0px 0px 0px;
+        img{
+            margin-left: 55px;
+        }
+    }
+}
