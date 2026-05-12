@@ -1,0 +1,18 @@
+.section_card{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    .section_card_wrapper{
+        img{
+            margin-left: 120px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            color: var(--secondary);
+            font-size: 17px;
+        }
+    }
+}

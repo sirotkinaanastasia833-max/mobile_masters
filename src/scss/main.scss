@@ -12,10 +12,14 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/hero';
+@use 'components/header';
+@use 'components/card';
 
 // ==== 5. Pages ====
 @use 'pages/registrPage';
 @use 'pages/homePage';
+@use 'pages/historyPage';
+@use 'pages/profilPage';
 
 body {
   background-color: var(--main-color);

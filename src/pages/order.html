@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    @@include('../components/_header.html', {
+    "img": "./assets/images/gal.webp",
+    "span": "Order"
+    })
+    @@include('../components/_card.html', {
+    "img": "./assets/images/order.webp",
+    "title": "No orders yet",
+    "description": "Hit the orange button down below to Create an order"
+    })
+    @@include('../components/_button.html', {
+    "title": "Start odering",
+    })
+</body>
+</html>
