@@ -1,48 +1,16 @@
-header{
-    padding: 50px 30px;
-    .corzina{
-        padding-left: 290px;
+form{
+    margin-top: 10px;
+    img{
+        margin: 0px 50px 0px 30px;
     }
-}
-main{
-    a{
-        text-decoration: none;
-    }
-    padding: 0px 50px 0px 30px;
-    font-size: 17px;
-    .search_wrapper{
+    input{
         padding: 2px;
         border-radius: 8px;
         background-color: var(--light-grey);
-        img{margin-right: 10px;}
-        span{
-            font-size: 15px;
-        }
+        width: 300px;
     }
-    nav{
-        display: flex;
-        flex-wrap: nowrap;
-        a{
-            font-size: 17px;
-            text-decoration: none;
-            margin: 20px;
-            color: var(--secondary);
-        }
-        a:focus{
-            color: var(--orange);
-        }
-    }
-    button{
-        all: unset;
-        color: var(--orange);
-        margin-left: 260px;
-    }
-    .Foods{
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 10px;
-        margin-top: 10px;
-        .food_wrapper{
+}
+.food_wrapper{
             padding: 50px 30px 30px 30px;
             background-color: #fff;
             border-radius: 30px;
@@ -64,11 +32,4 @@ main{
             }
             
         }
-    }
-    footer{
-        padding: 100px 0px 0px 0px;
-        img{
-            margin-left: 55px;
-        }
-    }
-}
+    
