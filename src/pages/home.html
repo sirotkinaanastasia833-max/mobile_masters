@@ -22,34 +22,34 @@
             </div>
         </a>
         <nav>
-            <a href="Foods">Foods</a>
+            <a href="#">Foods</a>
             <a href="#">Drinks</a>
             <a href="#">Snacks</a>
             <a href="#">Sauce</a>
         </nav>
-        <button>see more</button>
+        <a href="#"><button>see more</button></a>
         <div class="Foods">
-            <div class="food_wrapper">
-                <img src="./assets/images/tarelca.webp" alt=".">
-                <div class="title_price">
-                    <h1 class="title_food">Veggie tomato mix</h1>
-                    <span class="price">N1,900</span>
-                </div>
-            </div>
-            <div class="food_wrapper">
-                <img src="./assets/images/tarelcaa.webp" alt=".">
-                <div class="title_price">
-                    <h1 class="title_food">Veggie tomato mix</h1>
-                    <span class="price">N1,900</span>
-                </div>
-            </div>
-            <div class="food_wrapper">
-                <img src="./assets/images/tarelca.webp" alt=".">
-                <div class="title_price">
-                    <h1 class="title_food">Veggie tomato mix</h1>
-                    <span class="price">N1,900</span>
-                </div>
-            </div>
+            @@include('../components/_card_food.html', {
+            "img": "./assets/images/tarelka.webp",
+            "title": "Veggie tomato mix",
+            "span": "N1,900"
+            })
+            @@include('../components/_card_food.html', {
+            "img": "./assets/images/tarelcaa.webp",
+            "title": "Veggie tomato mix",
+            "span": "N1,900"
+            })
+            @@include('../components/_card_food.html', {
+            "img": "./assets/images/tarelca.webp",
+            "title": "Veggie tomato mix",
+            "span": "N1,900"
+            })
+            @@include('../components/_card_food.html', {
+            "img": "./assets/images/tarelca.webp",
+            "title": "Veggie tomato mix",
+            "span": "N1,900"
+            })
+            
         </div>
         <footer>
             <img src="./assets/images/house.webp" alt="">

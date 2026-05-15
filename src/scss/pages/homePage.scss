@@ -22,6 +22,9 @@ main{
     nav{
         display: flex;
         flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: visible;
+        scrollbar-width: none;
         a{
             font-size: 17px;
             text-decoration: none;
@@ -40,30 +43,13 @@ main{
     .Foods{
         display: flex;
         flex-wrap: nowrap;
+        align-items: center;
         gap: 10px;
         margin-top: 10px;
-        .food_wrapper{
-            padding: 50px 30px 30px 30px;
-            background-color: #fff;
-            border-radius: 30px;
-            .title_price{
-                img{
-                }
-                .title_food{
-                    text-align: center;
-                    font-size: 17px;
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                }
-                .price{
-                    display: flex;
-                    justify-content: center;
-                    color: var(--orange);
-                    font-size: 17px;
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                }
-            }
-            
-        }
+        overflow-x: auto;
+        overflow-y: visible;
+        scrollbar-width: none;
+        padding: 60px 0 0 24px;
     }
     footer{
         padding: 100px 0px 0px 0px;
