@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    @@include('../components/_card.html', {
+    "img": "./assets/images/wf.webp",
+    "title": "No internet Connection",
+    "description": "Hit the orange button down below to Create an orderYour internet connection is currently not available please check or try again."
+    })
+    <div class="button_wifi">
+        @@include('../components/_button.html', {
+        "title": "Try again",
+        })
+    </div>
+</body>
+</html>

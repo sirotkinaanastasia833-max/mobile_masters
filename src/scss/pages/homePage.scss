@@ -35,7 +35,7 @@ main{
             color: var(--orange);
         }
     }
-    button{
+    .link_button{
         all: unset;
         color: var(--orange);
         margin-left: 260px;
@@ -49,7 +49,7 @@ main{
         overflow-x: auto;
         overflow-y: visible;
         scrollbar-width: none;
-        padding: 60px 0 0 24px;
+        padding: 60px 0 120px 24px;
     }
     footer{
         padding: 100px 0px 0px 0px;

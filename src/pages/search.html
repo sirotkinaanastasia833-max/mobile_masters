@@ -11,45 +11,58 @@
 <body>
     <form>
         <a href="home.html"><img src="./assets/images/gal.webp" alt="Search"></a>
-        <input type="search" name="search-text" placeholder="Search">
+        <a href="search_not_found.html"><input type="search" name="search-text" placeholder="Search"></a>
     </form>
     <div class="food_search">
         <h1>Found 6 results</h1>
         <div class="container_food_wrapper">
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
+            <div>
+                <a href="card_inf.html">@@include('../components/_card_food.html', {
+                    "img": "./assets/images/tarelka.webp",
+                    "title": "Veggie tomato mix",
+                    "span": "N1,900"
+                    })
+                </a>
+            </div>
+            <div class="card_wrapper">
+                @@include('../components/_card_food.html', {
+                "img": "./assets/images/tarelcaa.webp",
+                "title": "Veggie tomato mix",
+                "span": "N1,900"
+                })
+            </div>
         </div>
         <div class="container_food_wrapper">
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
+            <div>
+                @@include('../components/_card_food.html', {
+                "img": "./assets/images/tarelca.webp",
+                "title": "Veggie tomato mix",
+                "span": "N1,900"
+                })
+            </div>
+            <div class="card_wrapper">
+                @@include('../components/_card_food.html', {
+                "img": "./assets/images/tarelcaaa.webp",
+                "title": "Veggie tomato mix",
+                "span": "N1,900"
+                })
+            </div>
         </div>
         <div class="container_food_wrapper">
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
+            <div>
+                @@include('../components/_card_food.html', {
+                "img": "./assets/images/tarelka.webp",
+                "title": "Veggie tomato mix",
+                "span": "N1,900"
+                })
+            </div>
+            <div class="card_wrapper">
+                @@include('../components/_card_food.html', {
+                "img": "./assets/images/tarelcaa.webp",
+                "title": "Veggie tomato mix",
+                "span": "N1,900"
+                })
+            </div>
         </div>
     </div>
 </body>

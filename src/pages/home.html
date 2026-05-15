@@ -12,6 +12,7 @@
     <header>
         <img src="./assets/images/lines.webp" alt="logo">
         <a href="order.html"><img src="./assets/images/corzina.webp" alt="logo" class="corzina"></a>
+        <a href="wifi.html"><img src="./assets/images/wf.webp" alt="" width="30px" height="30px"></a>
     </header>
     <main>
         <h1>Delicious food for you</h1>
@@ -27,7 +28,7 @@
             <a href="#">Snacks</a>
             <a href="#">Sauce</a>
         </nav>
-        <a href="#"><button>see more</button></a>
+        <a href="#"><button class="link_button">see more</button></a>
         <div class="Foods">
             @@include('../components/_card_food.html', {
             "img": "./assets/images/tarelka.webp",
@@ -36,18 +37,18 @@
             })
             @@include('../components/_card_food.html', {
             "img": "./assets/images/tarelcaa.webp",
+            "title": "Spicy fish sauce",
+            "span": "N2,300.99"
+            })
+            @@include('../components/_card_food.html', {
+            "img": "./assets/images/tarelka.webp",
             "title": "Veggie tomato mix",
             "span": "N1,900"
             })
             @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
-            })
-            @@include('../components/_card_food.html', {
-            "img": "./assets/images/tarelca.webp",
-            "title": "Veggie tomato mix",
-            "span": "N1,900"
+            "img": "./assets/images/tarelcaa.webp",
+            "title": "Spicy fish sauce",
+            "span": "N2,300.99"
             })
             
         </div>

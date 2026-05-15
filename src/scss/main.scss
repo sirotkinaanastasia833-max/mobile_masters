@@ -22,6 +22,10 @@
 @use 'pages/historyPage';
 @use 'pages/profilPage';
 @use 'pages/searchPage';
+@use 'pages/card_infPage';
+@use 'pages/orderPage';
+@use 'pages/wifiPage';
+@use 'pages/search_not_found';
 
 body {
   background-color: var(--main-color);
