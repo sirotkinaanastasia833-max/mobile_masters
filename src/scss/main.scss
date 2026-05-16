@@ -15,6 +15,7 @@
 @use 'components/header';
 @use 'components/card';
 @use 'components/card_food';
+@use 'components/nav_links';
 
 // ==== 5. Pages ====
 @use 'pages/registrPage';
@@ -26,6 +27,7 @@
 @use 'pages/orderPage';
 @use 'pages/wifiPage';
 @use 'pages/search_not_found';
+@use 'pages/my_profile';
 
 body {
   background-color: var(--main-color);

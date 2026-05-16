@@ -1,0 +1,42 @@
+header{
+    padding: 50px 30px;
+}
+.main_text_wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    .title_main{
+        font-size: 18px;
+    }
+    .title_main_orange{
+        font-size: 15px;
+        color: var(--orange);
+        margin-left: 160px;
+        padding-top: 5px;
+    }
+}
+.section_profile_wrapper{
+    width: 315px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    .wrapper_profile{
+        margin-left: 25px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    span{
+        font-size: 13px;
+    }
+    p{
+        font-size: 13px;
+    }
+    img{
+        padding-top: 20px;
+    }
+}
+.menu_button{
+    margin-top: 30px
+}
